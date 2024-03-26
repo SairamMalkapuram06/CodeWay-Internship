@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "disown-opener": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-justify",
+          "text-underline-offset",
+          "text-decoration-thickness"
+        ]
+      }
+    ]
+  }
+}
